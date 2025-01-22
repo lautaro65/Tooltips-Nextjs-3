@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import CreativeErrorTooltip from "./components/CreativeErrorTooltip/page";
+import CreativeErrorTooltip from "./components/CreativeErrorTooltip/CreativeErrorTooltip";
 export default function Home() {
   return (
     <main className="min-h-screen w-full flex items-center justify-center bg-gray-900">
