@@ -48,7 +48,7 @@ const CreativeErrorTooltip: React.FC<CreativeErrorTooltipProps> = ({
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.5, y: -10 }}
             transition={{ type: "spring", stiffness: 500, damping: 30 }}
-            className="absolute left-1/2 top-full mt-2 w-64 transform -translate-x-1/2"
+            className="absolute left-1/2 top-full mt-2 w-56 transform -translate-x-1/2"
           >
             <motion.div
               className="w-3 h-3 bg-red-500 transform rotate-45 absolute left-4 -top-1.5 -translate-x-1/2"
